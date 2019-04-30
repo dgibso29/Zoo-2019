@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 4270287339
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: zzs_core
+      Dependencies: {}

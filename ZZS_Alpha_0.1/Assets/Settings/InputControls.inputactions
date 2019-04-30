@@ -1,0 +1,146 @@
+﻿{
+    "name": "InputControls",
+    "maps": [
+        {
+            "name": "Camera",
+            "id": "d40b16f4-df1e-45a6-8b67-9c7e3de05029",
+            "actions": [
+                {
+                    "name": "PanLeft",
+                    "id": "a00f8627-2f86-4cee-8246-eb0283ece94c",
+                    "expectedControlLayout": "",
+                    "bindings": []
+                },
+                {
+                    "name": "PanRight",
+                    "id": "a15d784a-54a6-4260-9299-9638ae0d3d16",
+                    "expectedControlLayout": "",
+                    "bindings": []
+                },
+                {
+                    "name": "PanUp",
+                    "id": "b81f91ab-4b31-4317-a17a-7a5bd998f230",
+                    "expectedControlLayout": "",
+                    "bindings": []
+                },
+                {
+                    "name": "PanDown",
+                    "id": "73f16985-ea7c-44e6-9406-8fb3bfb8fae8",
+                    "expectedControlLayout": "",
+                    "bindings": []
+                },
+                {
+                    "name": "Pan",
+                    "id": "a91121ed-ece8-4c7e-889e-5fc608f28d4d",
+                    "expectedControlLayout": "",
+                    "bindings": []
+                },
+                {
+                    "name": "Zoom",
+                    "id": "d6eb7980-f354-4f4c-b280-4ded324d0465",
+                    "expectedControlLayout": "",
+                    "bindings": []
+                },
+                {
+                    "name": "ZoomIn",
+                    "id": "b3c42653-6fef-4cc2-a6cb-c28d4f0cde62",
+                    "expectedControlLayout": "",
+                    "bindings": []
+                },
+                {
+                    "name": "ZoomOut",
+                    "id": "e448148c-ed56-4cfa-9d8b-c7c40259dd9f",
+                    "expectedControlLayout": "",
+                    "bindings": []
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PanLeft",
+                    "chainWithPrevious": false,
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PanRight",
+                    "chainWithPrevious": false,
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PanUp",
+                    "chainWithPrevious": false,
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PanDown",
+                    "chainWithPrevious": false,
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "Stick",
+                    "processors": "StickDeadzone(min=0.125)",
+                    "groups": "",
+                    "action": "Pan",
+                    "chainWithPrevious": false,
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "Press",
+                    "processors": "StickDeadzone(min=0.125)",
+                    "groups": "",
+                    "action": "ZoomIn",
+                    "chainWithPrevious": false,
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "Press",
+                    "processors": "StickDeadzone(min=0.125)",
+                    "groups": "",
+                    "action": "ZoomOut",
+                    "chainWithPrevious": false,
+                    "isComposite": false,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

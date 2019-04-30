@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 68ddacde805b3ef4885b33b750916e36, type: 3}
+  m_Name: path_test_01
+  m_EditorClassIdentifier: 
+  AssetStringID: path_test_01
+  AllowIconGeneration: 0
+  AssetPrefab: {fileID: 6511678344404302367, guid: fe3054fad43d8bc4aa3a53e4c239cf9e,
+    type: 3}
+  AssetUITexture: {fileID: 2800000, guid: 704af9c160823af42983ba7ccd6b2d03, type: 2}
+  AssetSize: {x: 0.5, y: 1, z: 0.5}
+  AssetTileSize: {x: 1, y: 1}
+  DynamicAttributeIDs: []
+  MetadataTags: []
+  _inGameName: 
+  _nameLocalizationKey: 
+  _descriptionEnglish: 
+  _descriptionLocalizationKey: 

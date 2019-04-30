@@ -1,0 +1,58 @@
+[
+  {
+    "AssetStringID": "animal_test_01",
+    "Metadata Tags": [
+      "animal",
+      "test",
+      "debug",
+      "vanilla"
+    ],
+    "Dynamic Attributes": ""
+  },
+  {
+    "AssetStringID": "scenery_block_test_l_01",
+    "Metadata Tags": [
+      "scenery",
+      "object",
+      "test",
+      "debug",
+      "vanilla"
+    ],
+    "Dynamic Attributes": [
+      "HungerAttribute"
+    ]
+  },
+  {
+    "AssetStringID": "scenery_block_test_m_01",
+    "Metadata Tags": [
+      "scenery",
+      "object",
+      "test",
+      "debug",
+      "vanilla"
+    ],
+    "Dynamic Attributes": ""
+  },
+  {
+    "AssetStringID": "scenery_block_test_s_01",
+    "Metadata Tags": [
+      "scenery",
+      "object",
+      "test",
+      "debug",
+      "vanilla"
+    ],
+    "Dynamic Attributes": ""
+  },
+  {
+    "AssetStringID": "path_test_01",
+    "Metadata Tags": [
+      "path",
+      "object",
+      "test",
+      "debug",
+      "vanilla"
+    ],
+    "Dynamic Attributes": ""
+  }
+]

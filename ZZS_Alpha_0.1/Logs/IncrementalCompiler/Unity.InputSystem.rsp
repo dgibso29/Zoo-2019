@@ -1,0 +1,603 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:7
+-out:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Temp/Unity.InputSystem.dll
+-nostdlib
+-unsafe
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Assets/Libraries/PrankLib/PrankLib.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.collections@0.0.9-preview.10/System.Runtime.CompilerServices.Unsafe.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Mdb.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Pdb.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
+-d:UNITY_5_3_OR_NEWER
+-d:UNITY_5_4_OR_NEWER
+-d:UNITY_5_5_OR_NEWER
+-d:UNITY_5_6_OR_NEWER
+-d:UNITY_2017_1_OR_NEWER
+-d:UNITY_2017_2_OR_NEWER
+-d:UNITY_2017_3_OR_NEWER
+-d:UNITY_2017_4_OR_NEWER
+-d:UNITY_2018_1_OR_NEWER
+-d:UNITY_2018_2_OR_NEWER
+-d:UNITY_2018_3_OR_NEWER
+-d:UNITY_2018_3_0
+-d:UNITY_2018_3
+-d:UNITY_2018
+-d:UNITY_INCLUDE_TESTS
+-d:ENABLE_AUDIO
+-d:ENABLE_CACHING
+-d:ENABLE_CLOTH
+-d:ENABLE_DUCK_TYPING
+-d:ENABLE_MICROPHONE
+-d:ENABLE_MULTIPLE_DISPLAYS
+-d:ENABLE_PHYSICS
+-d:ENABLE_SPRITES
+-d:ENABLE_GRID
+-d:ENABLE_TILEMAP
+-d:ENABLE_TERRAIN
+-d:ENABLE_TEXTURE_STREAMING
+-d:ENABLE_DIRECTOR
+-d:ENABLE_UNET
+-d:ENABLE_LZMA
+-d:ENABLE_UNITYEVENTS
+-d:ENABLE_WEBCAM
+-d:ENABLE_WWW
+-d:ENABLE_CLOUD_SERVICES_COLLAB
+-d:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-d:ENABLE_CLOUD_SERVICES_ADS
+-d:ENABLE_CLOUD_HUB
+-d:ENABLE_CLOUD_PROJECT_ID
+-d:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-d:ENABLE_CLOUD_SERVICES_UNET
+-d:ENABLE_CLOUD_SERVICES_BUILD
+-d:ENABLE_CLOUD_LICENSE
+-d:ENABLE_EDITOR_HUB
+-d:ENABLE_EDITOR_HUB_LICENSE
+-d:ENABLE_WEBSOCKET_CLIENT
+-d:ENABLE_DIRECTOR_AUDIO
+-d:ENABLE_DIRECTOR_TEXTURE
+-d:ENABLE_TIMELINE
+-d:ENABLE_EDITOR_METRICS
+-d:ENABLE_EDITOR_METRICS_CACHING
+-d:ENABLE_MANAGED_JOBS
+-d:ENABLE_MANAGED_TRANSFORM_JOBS
+-d:ENABLE_MANAGED_ANIMATION_JOBS
+-d:INCLUDE_DYNAMIC_GI
+-d:INCLUDE_GI
+-d:ENABLE_MONO_BDWGC
+-d:PLATFORM_SUPPORTS_MONO
+-d:RENDER_SOFTWARE_CURSOR
+-d:INCLUDE_PUBNUB
+-d:ENABLE_VIDEO
+-d:ENABLE_CUSTOM_RENDER_TEXTURE
+-d:ENABLE_LOCALIZATION
+-d:PLATFORM_STANDALONE_WIN
+-d:PLATFORM_STANDALONE
+-d:UNITY_STANDALONE_WIN
+-d:UNITY_STANDALONE
+-d:ENABLE_SUBSTANCE
+-d:ENABLE_RUNTIME_GI
+-d:ENABLE_MOVIES
+-d:ENABLE_NETWORK
+-d:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-d:ENABLE_UNITYWEBREQUEST
+-d:ENABLE_CLOUD_SERVICES
+-d:ENABLE_CLOUD_SERVICES_ANALYTICS
+-d:ENABLE_CLOUD_SERVICES_PURCHASING
+-d:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-d:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-d:ENABLE_EVENT_QUEUE
+-d:ENABLE_CLUSTER_SYNC
+-d:ENABLE_CLUSTERINPUT
+-d:ENABLE_VR
+-d:ENABLE_AR
+-d:ENABLE_WEBSOCKET_HOST
+-d:ENABLE_MONO
+-d:NET_4_6
+-d:ENABLE_PROFILER
+-d:DEBUG
+-d:TRACE
+-d:UNITY_ASSERTIONS
+-d:UNITY_EDITOR
+-d:UNITY_EDITOR_64
+-d:UNITY_EDITOR_WIN
+-d:ENABLE_UNITY_COLLECTIONS_CHECKS
+-d:ENABLE_BURST_AOT
+-d:UNITY_TEAM_LICENSE
+-d:ENABLE_VSTU
+-d:UNITY_PRO_LICENSE
+-d:UNITY_POST_PROCESSING_STACK_V2
+-d:CSHARP_7_OR_LATER
+-d:CSHARP_7_3_OR_NEWER
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Composites/AxisComposite.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Composites/DpadComposite.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/IInputActionCollection.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/IInputBindingComposite.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/IInputInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputAction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionAsset.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionAssetReference.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionChange.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionMap.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionMapState.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionPhase.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionProperty.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionRebindingExtensions.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionReference.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionSetupExtensions.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputActionTrace.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputBinding.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputBindingCompositeContext.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputBindingResolver.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputControlScheme.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/InputInteractionContext.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/DoubleTapInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/DragAndDropInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/DragInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/HoldInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/PressAndReleaseInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/PressInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/SlowTapInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/StickInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/SwipeInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Actions/Interactions/TapInteraction.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/AssemblyInfo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/AnyKeyControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/AxisControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/ButtonControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/CommonUsages.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/DiscreteButtonControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/DpadControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/IInputControlProcessor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/InputControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/InputControlAttribute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/InputControlExtensions.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/InputControlLayout.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/InputControlLayoutAttribute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/InputControlLayoutChange.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/InputControlList.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/InputControlPath.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/IntegerControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/KeyControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/PointerPhaseControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Processors/AxisDeadzoneProcessor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Processors/ClampProcessor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Processors/CurveProcessor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Processors/EditorWindowSpaceProcessor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Processors/InvertProcessor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Processors/NormalizeProcessor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Processors/SensitivityProcessor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Processors/StickDeadzoneProcessor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/QuaternionControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/StickControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/TouchControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Vector2Control.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Controls/Vector3Control.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/DisableDeviceCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/EnableDeviceCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/EnableIMECompositionCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/IInputDeviceCommandInfo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/InitiateUserAccountPairingCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/InputDeviceCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/QueryCanRunInBackground.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/QueryDimensionsCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/QueryEditorWindowCoordinatesCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/QueryEnabledStateCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/QueryKeyboardLayoutCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/QueryKeyNameCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/QueryPairedUserAccountCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/QuerySamplingFrequencyCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/QueryUserIdCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/RequestResetCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/RequestSyncCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/SetIMECursorPositionCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/SetSamplingFrequencyCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Commands/WarpMousePositionCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Gamepad.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Haptics/DualMotorRumble.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Haptics/DualMotorRumbleCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Haptics/IDualMotorRumble.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Haptics/IHaptics.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/IInputUpdateCallbackReceiver.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/InputDevice.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/InputDeviceBuilder.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/InputDeviceChange.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/InputDeviceDescription.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/InputDeviceMatcher.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/InputDeviceReference.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/ITextInputReceiver.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Joystick.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Keyboard.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Mouse.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Pen.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Pointer.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Remote/InputRemoting.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Remote/RemoteInputPlayerConnection.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Sensor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Devices/Touchscreen.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/EditorInputControlLayoutCache.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/EditorPlayerSettings.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/ActionInspectorContextMenu.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/ActionMapsTree.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/ActionsTree.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/AddControlSchemePopup.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/AssetInspectorWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/CopyPasteUtility.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/InputActionAssetManager.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/InputActionPropertiesView.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/InputActionTreeBase.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/InputActionWindowToolbar.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/InputBindingPropertiesView.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/InputTreeViewLine.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/ParameterListView.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAsset/PropertyLists.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAssetEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionAssetReferenceDrawer.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionCodeGenerator.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionDebuggerWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionImporter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionImporterEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionInspector/BindingPropertiesPopup.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionInspector/InputActionDrawer.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionInspector/InputActionMapDrawer.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionInspector/InputDrawersBase.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionInspector/InspectorTree.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputActionPropertyDrawer.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputBindingDrawer.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/AdvancedDropdown/AdvancedDropdown.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/AdvancedDropdown/AdvancedDropdownDataSource.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/AdvancedDropdown/AdvancedDropdownGUI.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/AdvancedDropdown/AdvancedDropdownItem.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/AdvancedDropdown/AdvancedDropdownState.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/AdvancedDropdown/AdvancedDropdownWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/AdvancedDropdown/CallbackDataSource.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/AdvancedDropdown/MultiLevelDataSource.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/InputControlPickerDropdown.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/InputControlPickerGUI.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/InputControlPickerPopup.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/InputControlPickerState.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputControlPicker/InputControlTreeViewItem.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputDebuggerWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputDeviceDatabaseCodeGenerator.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputDeviceDebuggerWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputDiagnostics.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputEditorUserSettings.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/InputSettingsProvider.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/Internal/InputActionSerializationHelpers.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/Internal/InputActionTreeView.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/Internal/InputBindingListView.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/Internal/InputControlTreeView.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/Internal/InputEventTreeView.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/Internal/InputStateWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Editor/SerializedPropertyHelpers.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/ActionEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/DeltaStateEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/DeviceConfigurationEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/DeviceRemoveEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/IInputEventTypeInfo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/IMECompositionEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/InputEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/InputEventBuffer.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/InputEventPtr.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/InputEventTrace.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/StateEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Events/TextEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/IInputDiagnostics.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/IInputRuntime.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/InputAnalytics.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/InputManager.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/InputMetrics.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/InputSettings.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/InputSystem.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/InputSystemObject.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/InputUpdateType.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/NativeInputRuntime.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Android/AndroidAxis.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Android/AndroidGameController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Android/AndroidKeyCode.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Android/AndroidSensors.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Android/AndroidSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/DualShock/DualShockGamepad.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/DualShock/DualShockGamepadHID.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/DualShock/DualShockSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/DualShock/IDualShockHaptics.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Flightsticks/Flightstick.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Flightsticks/Rudder.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Flightsticks/Throttle.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/HID/HID.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/HID/HIDDescriptorWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/HID/HIDParser.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/HID/HIDSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/iOS/IOSGameController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/iOS/iOSSensors.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/iOS/iOSSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/OnScreen/Editor/OnScreenButtonEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/OnScreen/Editor/OnScreenControlEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/OnScreen/Editor/OnScreenStickEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/OnScreen/OnScreenButton.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/OnScreen/OnScreenControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/OnScreen/OnScreenStick.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/OnScreen/OnScreenSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/PS4/DualShockGamepadPS4.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/PS4/MoveControllerPS4.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/PS4/PS4Support.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Steam/IStreamControllerAPI.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Steam/SteamController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Steam/SteamControllerType.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Steam/SteamHandle.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Steam/SteamIGAConverter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Steam/SteamSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/SteeringWheels/SteeringWheel.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Switch/NPad.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Switch/SwitchSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/JoystickModel.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/MouseModel.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/TouchModel.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/TrackedDeviceModel.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/TrackedDeviceRaycaster.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/UIActionInputModule.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/UIActionInputModuleEnabler.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/UIGamepadInputModule.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/UIInputModule.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/UIKeyboardMouseInputModule.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/UITouchInputModule.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/UI/UIXRInputModule.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Users/InputUser.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Users/InputUserAccountHandle.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Users/InputUserChange.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Users/InputUserPairingOptions.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/Users/InputUserSettings.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/WebGL/WebGLGamepad.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/WebGL/WebGLJoystick.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/WebGL/WebGLSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XInput/IXboxOneRumble.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XInput/XboxOneGamepad.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XInput/XInputController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XInput/XInputSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Daydream.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/GearVR.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/GenericXRDevice.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Haptics/BufferedRumble.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Haptics/GetCurrentHapticStateCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Haptics/GetHapticCapabilitiesCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Haptics/SendBufferedHapticsCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Haptics/SendSimpleRumbleCommand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Haptics/SimpleRumble.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Knuckles.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Oculus.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/TrackedPoseDriver.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/Vive.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/WindowsMR.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/XRSupport.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Plugins/XR/XRTemplateBuilder.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/State/IInputStateCallbackReceiver.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/State/IInputStateChangeMonitor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/State/IInputStateTypeInfo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/State/InputStateBlock.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/State/InputStateBuffers.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/State/InputStateHistory.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/ArrayHelpers.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/CSharpCodeHelpers.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/DynamicBitfield.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/FourCC.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/InlinedArray.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/InternedString.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/JsonGraph.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/MemoryHelpers.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/Net35Compatibility.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/NumberHelpers.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/PrimitiveValue.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/ReadOnlyArray.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/ReadWriteArray.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/StringHelpers.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/Substring.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/TypeHelpers.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/TypeTable.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.inputsystem@0.1.2-preview/InputSystem/Utilities/Unity2018_2_Compatibility.cs
+-v:0

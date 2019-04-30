@@ -1,0 +1,742 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:7
+-out:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Temp/Unity.VisualEffectGraph.Editor.dll
+-nostdlib
+-unsafe
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/ScriptAssemblies/Unity.Timeline.dll
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/Unity.Locator.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Assets/Libraries/PrankLib/PrankLib.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.collections@0.0.9-preview.11/System.Runtime.CompilerServices.Unsafe.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Mdb.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Pdb.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.render-pipelines.high-definition@5.3.1-preview/Editor/Core/ShaderGenerator/ICSharpCode.NRefactory.dll
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2019.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+-d:UNITY_2019_1_0
+-d:UNITY_2019_1
+-d:UNITY_2019
+-d:UNITY_5_3_OR_NEWER
+-d:UNITY_5_4_OR_NEWER
+-d:UNITY_5_5_OR_NEWER
+-d:UNITY_5_6_OR_NEWER
+-d:UNITY_2017_1_OR_NEWER
+-d:UNITY_2017_2_OR_NEWER
+-d:UNITY_2017_3_OR_NEWER
+-d:UNITY_2017_4_OR_NEWER
+-d:UNITY_2018_1_OR_NEWER
+-d:UNITY_2018_2_OR_NEWER
+-d:UNITY_2018_3_OR_NEWER
+-d:UNITY_2019_1_OR_NEWER
+-d:PLATFORM_ARCH_64
+-d:UNITY_64
+-d:UNITY_INCLUDE_TESTS
+-d:ENABLE_AUDIO
+-d:ENABLE_CACHING
+-d:ENABLE_CLOTH
+-d:ENABLE_DUCK_TYPING
+-d:ENABLE_MICROPHONE
+-d:ENABLE_MULTIPLE_DISPLAYS
+-d:ENABLE_PHYSICS
+-d:ENABLE_SPRITES
+-d:ENABLE_GRID
+-d:ENABLE_TILEMAP
+-d:ENABLE_TERRAIN
+-d:ENABLE_TEXTURE_STREAMING
+-d:ENABLE_DIRECTOR
+-d:ENABLE_UNET
+-d:ENABLE_LZMA
+-d:ENABLE_UNITYEVENTS
+-d:ENABLE_WEBCAM
+-d:ENABLE_WWW
+-d:ENABLE_CLOUD_SERVICES_COLLAB
+-d:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-d:ENABLE_CLOUD_SERVICES_ADS
+-d:ENABLE_CLOUD_HUB
+-d:ENABLE_CLOUD_PROJECT_ID
+-d:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-d:ENABLE_CLOUD_SERVICES_UNET
+-d:ENABLE_CLOUD_SERVICES_BUILD
+-d:ENABLE_CLOUD_LICENSE
+-d:ENABLE_EDITOR_HUB
+-d:ENABLE_EDITOR_HUB_LICENSE
+-d:ENABLE_WEBSOCKET_CLIENT
+-d:ENABLE_DIRECTOR_AUDIO
+-d:ENABLE_DIRECTOR_TEXTURE
+-d:ENABLE_TIMELINE
+-d:ENABLE_EDITOR_METRICS
+-d:ENABLE_EDITOR_METRICS_CACHING
+-d:ENABLE_MANAGED_JOBS
+-d:ENABLE_MANAGED_TRANSFORM_JOBS
+-d:ENABLE_MANAGED_ANIMATION_JOBS
+-d:ENABLE_MANAGED_AUDIO_JOBS
+-d:INCLUDE_DYNAMIC_GI
+-d:INCLUDE_GI
+-d:ENABLE_MONO_BDWGC
+-d:PLATFORM_SUPPORTS_MONO
+-d:RENDER_SOFTWARE_CURSOR
+-d:INCLUDE_PUBNUB
+-d:ENABLE_VIDEO
+-d:ENABLE_CUSTOM_RENDER_TEXTURE
+-d:ENABLE_LOCALIZATION
+-d:PLATFORM_STANDALONE_WIN
+-d:PLATFORM_STANDALONE
+-d:UNITY_STANDALONE_WIN
+-d:UNITY_STANDALONE
+-d:ENABLE_SUBSTANCE
+-d:ENABLE_RUNTIME_GI
+-d:ENABLE_MOVIES
+-d:ENABLE_NETWORK
+-d:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-d:ENABLE_UNITYWEBREQUEST
+-d:ENABLE_CLOUD_SERVICES
+-d:ENABLE_CLOUD_SERVICES_ANALYTICS
+-d:ENABLE_CLOUD_SERVICES_PURCHASING
+-d:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-d:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-d:ENABLE_SCRIPTING_GC_WBARRIERS
+-d:ENABLE_EVENT_QUEUE
+-d:ENABLE_CLUSTER_SYNC
+-d:ENABLE_CLUSTERINPUT
+-d:ENABLE_VR
+-d:ENABLE_AR
+-d:ENABLE_WEBSOCKET_HOST
+-d:ENABLE_MONO
+-d:NET_4_6
+-d:ENABLE_PROFILER
+-d:DEBUG
+-d:TRACE
+-d:UNITY_ASSERTIONS
+-d:UNITY_EDITOR
+-d:UNITY_EDITOR_64
+-d:UNITY_EDITOR_WIN
+-d:ENABLE_UNITY_COLLECTIONS_CHECKS
+-d:ENABLE_BURST_AOT
+-d:UNITY_TEAM_LICENSE
+-d:ENABLE_VSTU
+-d:UNITY_PRO_LICENSE
+-d:UNITY_POST_PROCESSING_STACK_V2
+-d:CSHARP_7_OR_LATER
+-d:CSHARP_7_3_OR_NEWER
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Compiler/VFXCodeGenerator.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Compiler/VFXExpressionGraph.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Compiler/VFXExpressionMapper.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Compiler/VFXGraphCompiledData.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Compiler/VFXShaderWriter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Compiler/VFXUniformMapper.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/Element3D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXColorField.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXControl.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXEnumField.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXFlipBookField.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXLabeledField.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXMatrix4x4Field.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXObjectField.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXReorderableList.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXSliderField.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXStringField.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXStringFieldProvider.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXStringFieldPushButton.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXVector2Field.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXVector3Field.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Controls/VFXVector4Field.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Core/VFXConverter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Core/VFXLibrary.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Core/VFXSerializer.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Core/VFXSettingAttribute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Data/VFXData.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Data/VFXDataMesh.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Data/VFXDataParticle.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Debug/DotGraphOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXAttributeExpression.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXBuiltInExpression.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionAbstract.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionAbstractBoolOperation.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionAbstractFloatOperation.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionAbstractNumericOperation.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionAbstractUintOperation.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionAbstractValues.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionBakeCurve.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionBakeGradient.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionCamera.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionCast.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionColor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionCombine.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionContext.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionExtractComponent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionFlow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionMath.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionNoise.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionRandom.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionSampleCurve.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionSampleGradient.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionSampleTexture2D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionSampleTexture2DArray.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionSampleTexture3D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionSampleTextureCube.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionSampleTextureCubeArray.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionTextureValues.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Expressions/VFXExpressionTransform.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/FilterPopup/VFXBlockProvider.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/FilterPopup/VFXFilterWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Gizmo/VFXGizmo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Gizmo/VFXGizmoUtility.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Blackboard/VFXBlackboard.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Blackboard/VFXBlackboardCategory.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Blackboard/VFXBlackboardField.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Blackboard/VFXBlackboardPropertyView.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Blackboard/VFXBlackboardRow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Controllers/Controller.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Controllers/IControlledElement.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/3D/Preview3D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/3D/Rotate3DManipulator.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXBlockController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXContextController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXContextDataAnchorController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXDataAnchorController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXDataEdgeController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXFlowAnchorController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXFlowEdgeController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXGroupNodeController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXNodeController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXOperatorAnchorController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXOperatorController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXParameterController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXParameterNodeController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXSettingController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/Controllers/VFXSlotContainerController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/StickyNote.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXBlockDataAnchor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXBlockUI.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXContextUI.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXDataAnchor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXDataEdge.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXEditableDataAnchor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXElement.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXFlowAnchor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXFlowEdge.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXGroupNode.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXMultiOperatorEdit.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXNodeUI.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXOperatorUI.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXOutputDataAnchor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXParameterUI.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Elements/VFXStickyNote.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/VFXComponentBoard.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/VFXTypeDefinition.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/VFXViewPreference.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/VFXViewWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Controller/VFXGraphUndoCursor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Controller/VFXGraphValidation.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Controller/VFXSystemController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Controller/VFXViewController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Controller/VFXViewControllerExpressions.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Controller/VFXViewControllerUndo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/BoolPropertyRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/ColorPropertyRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/CurvePropertyRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/GradientPropertyRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/NumericPropertiesRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/ObjectPropertyRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/PropertyRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/SimplePropertiesRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/SpaceablePropertiesRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/StringPropertyRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/Properties/Vector3PropertyRM.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/VFXCopy.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/VFXCopyPaste.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/VFXCopyPasteCommon.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/VFXNodeProvider.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/VFXPaste.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/GraphView/Views/VFXView.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Inspector/AdvancedVisualEffectEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Inspector/GizmoController.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Inspector/VFXAssetEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Inspector/VFXBlockEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Inspector/VFXContextEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Inspector/VFXManagerEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Inspector/VFXParameterEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Inspector/VFXSlotContainerEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Inspector/VisualEffectEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Manipulators/DownClickable.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Manipulators/SuperCollapser.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Attribute/AttributeFromCurve.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Attribute/AttributeFromMap.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Attribute/AttributeMassFromVolume.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Attribute/SetCustomAttribute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Collision/CollisionAABox.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Collision/CollisionBase.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Collision/CollisionCylinder.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Collision/CollisionDepth.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Collision/CollisionPlane.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Collision/CollisionSDF.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Collision/CollisionSphere.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Color/ColorOverLife.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/FlipBook/FlipbookPlay.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Forces/ConformToSDF.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Forces/ConformToSphere.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Forces/Drag.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Forces/Force.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Forces/ForceHelper.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Forces/Gravity.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Forces/Turbulence.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Forces/VectorFieldForce.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/GPUEvent/GPUEventAlways.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/GPUEvent/GPUEventOnDie.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Kill/KillAABox.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Kill/KillSphere.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Orientation/ConnectTarget.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Orientation/Orient.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Output/CameraFade.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Output/SubpixelAA.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/PositionAABox.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/PositionBase.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/PositionCircle.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/PositionCone.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/PositionLine.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/PositionSequential.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/PositionSphere.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/PositionTorus.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/ProjectOnDepth.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Position/TileWarp.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/SetAttribute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Size/ScreenSpaceSize.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Spawn/VFXAbstractSpawner.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerBurst.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerBurstOld.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerConstantRate.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerCustomWrapper.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerPeriodicBurst.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerSetAttribute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Spawn/VFXSpawnerVariableRate.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Test/AllType.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Test/InitBlockTest.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Test/OutputBlockTest.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Test/UpdateBlockTest.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Update/Age.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Update/AngularEulerIntegration.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Update/EulerIntegration.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Update/Reap.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Velocity/VelocityBase.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Velocity/VelocityDirection.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Velocity/VelocityRandomize.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Velocity/VelocitySpeed.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Velocity/VelocitySpherical.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/Velocity/VelocityTangent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/Implementations/VFXBlockUtility.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Blocks/VFXBlock.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/HDRP/VFXAbstractParticleHDRPLitOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/HDRP/VFXLitCubeOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/HDRP/VFXLitMeshOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/HDRP/VFXLitQuadOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/HDRP/VFXLitSphereOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXAbstractParticleOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXBasicCubeOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXBasicEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXBasicGPUEvent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXBasicInitialize.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXBasicSpawner.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXBasicUpdate.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXCubeTestOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXDecalOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXLineOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXMeshOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXPointOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXQuadOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/Implementations/VFXStaticMeshOutput.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/IVFXSubRenderer.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/VFXCameraSort.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Contexts/VFXContext.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/AABoxVolume.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Absolute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Add.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/AgeOverLifetime.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/AppendVector.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/BitwiseAnd.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/BitwiseComplement.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/BitwiseLeftShift.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/BitwiseOr.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/BitwiseRightShift.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/BitwiseXor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Branch.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Ceiling.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/ChangeSpace.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/CircleArea.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Clamp.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/ColorLuma.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Condition.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/ConeVolume.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Cosine.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/CrossProduct.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/CrossProductDeprecated.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/CurlNoise.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/CylinderVolume.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Deprecated/CellularNoise.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Deprecated/NoiseBaseOld.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Deprecated/PerlinNoise.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Deprecated/SimplexNoise.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Deprecated/ValueNoise.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Discretize.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Distance.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/DistanceToLine.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/DistanceToPlane.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/DistanceToSphere.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Divide.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/DotProduct.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Epsilon.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Floor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Fractional.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/GetCustomAttribute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/GetSpawnCount.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/HSVtoRGB.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/InverseLerp.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Length.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Lerp.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/LogicalAnd.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/LogicalNand.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/LogicalNor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/LogicalNot.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/LogicalOr.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/LookAt.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/MainCamera.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Maximum.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Minimum.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Modulo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Multiply.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Negate.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Noise.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/NoiseBase.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Normalize.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/OneMinus.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/OrientedBoxVolume.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/PeriodicTotalTime.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/PerParticleTotalTime.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Pi.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/PolarToRectangular.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Power.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/ProbabilitySampling.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Random.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Reciprocal.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/RectangularToPolar.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/RectangularToSpherical.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Remap.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/RemapToNegOnePosOne.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/RemapToZeroOne.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/RGBtoHSV.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Rotate2D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Rotate3D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Round.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SampleBezier.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SampleCurve.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SampleGradient.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SampleTexture2D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SampleTexture2DArray.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SampleTexture3D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SampleTextureCube.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SampleTextureCubeArray.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Saturate.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SawtoothWave.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Sequential3D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SequentialCircle.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SequentialLine.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Sign.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Sine.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SineWave.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Smoothstep.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SphereVolume.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SphericalToRectangular.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SquaredDistance.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SquaredLength.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SquareRoot.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/SquareWave.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Step.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Subtract.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Switch.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Swizzle.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/Tangent.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/TorusVolume.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/TransformDirection.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/TransformMatrix.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/TransformPosition.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/TransformVector.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/TriangleWave.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/Implementations/VoroNoise2D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/VFXAbstractOperatorNew.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/VFXOperator.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Operators/VFXOperatorUtility.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Parameters/VFXAttributeParameter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Parameters/VFXBuiltInParameter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Parameters/VFXCurrentAttributeParameter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Parameters/VFXInlineOperator.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Parameters/VFXParameter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Parameters/VFXSourceAttributeParameter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotAnimationCurve.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotBool.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotColor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotDirection.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotEncapsulated.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotFlipBook.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotFloat.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotFloat2.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotFloat3.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotFloat4.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotGradient.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotInt.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotMatrix4x4.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotMesh.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotOrientedBox.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotPosition.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotTexture2D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotTexture2DArray.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotTexture3D.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotTextureCube.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotTextureCubeArray.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotTransform.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotUint.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/Implementations/VFXSlotVector.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/Slots/VFXSlot.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/VFXGraph.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/VFXModel.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/VFXParameterInfo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/VFXSlotContainerModel.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Models/VFXUI.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/PackageInfo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXBoxGizmos.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXCircleGizmos.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXConeGizmos.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXCylinderGizmo.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXLineGizmos.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXPlaneGizmos.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXProperty.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXPropertyAttribute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXSphereGizmos.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXTorusGizmos.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXTransformGizmos.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXTypeExtension.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXTypes.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXTypesGizmos.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Types/VFXTypeUtility.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/DotGraph/DotAttribute.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/DotGraph/DotElement.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/DotGraph/DotGraph.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/ParameterBinding/VFXParameterBinderEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/pCache/BakeTool/PointCacheBakeTool.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/pCache/BakeTool/PointCacheBakeTool.Mesh.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/pCache/BakeTool/PointCacheBakeTool.Texture.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/pCache/Importer/PointCacheImporter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/pCache/Operator/VFXOperatorPointCache.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/pCache/PCache.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/pCache/PointCache.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/pCache/PointCacheAsset.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/VectorFieldGenerator.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/VectorFieldImporter/Editor/VectorFieldImporter.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/VectorFieldImporter/Editor/VectorFieldImporterEditor.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utilities/VisualEffectActivationBehaviourInspector.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utils/ProjectUtils.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utils/VFXContextBorder.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utils/VFXDebugWindow.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utils/VFXResources.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/Utils/VFXSystemBorder.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/VFXAssetEditorUtility.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/VFXMigration.cs
+-i:C:/Users/Daniel/Perforce/dgibso29_DESKTOP-B19OR4I_ZZS_Alpha_0.1_dev_9735/ZZS_Alpha_0.1/Library/PackageCache/com.unity.visualeffectgraph@5.3.1-preview/Editor/VisualElementExtensions.cs
+-v:0

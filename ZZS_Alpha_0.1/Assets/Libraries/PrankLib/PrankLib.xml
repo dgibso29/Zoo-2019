@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrankLib</name>
+    </assembly>
+    <members>
+        <member name="T:PrankLib.Maps.HeightMap2D">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PrankLib.Maps.HeightMap2D.HeightData">
+            <summary>
+            2D array holding height between 0 and 1 at each point x,y.
+            </summary>
+        </member>
+        <member name="P:PrankLib.Maps.HeightMap2D.HeightData1D">
+            <summary>
+            1D array holding height between 0 and 1 at each point.
+            </summary>
+        </member>
+        <member name="P:PrankLib.Maps.HeightMap2D.Width">
+            <summary>
+            Width X of noise map.
+            </summary>
+        </member>
+        <member name="P:PrankLib.Maps.HeightMap2D.Length">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PrankLib.Maps.HeightMap2D.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PrankLib.Maps.HeightMap2D.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Create empty Height map of given size.
+            </summary>
+            <param name="width">Width X of noise map.</param>
+            <param name="length"></param>
+        </member>
+        <member name="M:PrankLib.Maps.HeightMap2D.#ctor(System.Single[0:,0:],System.Single[])">
+            <summary>
+            Create height map with given height data.
+            </summary>
+            <param name="heightData"></param>
+            <param name="heightData1D"></param>
+        </member>
+        <member name="M:PrankLib.Maps.HeightMap2D.SetHeightData(System.Single[0:,0:])">
+            <summary>
+            Set height map data 
+            </summary>
+            <param name="heightData"></param>
+        </member>
+        <member name="M:PrankLib.Maps.HeightMap2D.SetHeightData(System.Single[])">
+            <summary>
+            Set height map data 
+            </summary>
+            <param name="heightData"></param>
+        </member>
+        <member name="T:PrankLib.Maps.MapGenerator">
+            <summary>
+            Responsible for the generation of random height maps.
+            </summary>
+        </member>
+        <member name="M:PrankLib.Maps.MapGenerator.GenerateFlatHeightMap(System.Int32,System.Int32,System.Single)">
+            <summary>
+            Returns a flat height map of the given dimensions. All values will be set to height param, defaulting to 0.0.
+            </summary>
+            <param name="mapWidth">Width X of noise map.</param>
+            <param name="mapLength">Length Y of noise map.</param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrankLib.Maps.MapGenerator.GenerateSimplexHeightMap2D(System.Int32,System.Int32,PrankLib.Maps.MapGenerator.SimplexSettings2D)">
+            <summary>
+            
+            </summary>
+            <param name="mapWidth"> Width X of noise map.</param>
+            <param name="mapLength">Length Y of noise map.</param>
+            <param name="settings"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PrankLib.Maps.MapGenerator.GenerateVoxelMap3D(PrankLib.Maps.HeightMap2D,System.Int32)" -->
+        <member name="P:PrankLib.Maps.VoxelMap3D.Width">
+            <summary>
+            Width X of voxel map.
+            </summary>
+        </member>
+        <member name="P:PrankLib.Maps.VoxelMap3D.Length">
+            <summary>
+            Length Y of voxel map.
+            </summary>
+        </member>
+        <member name="P:PrankLib.Maps.VoxelMap3D.Height">
+            <summary>
+            Height Z of voxel map.
+            </summary>
+        </member>
+        <member name="M:PrankLib.Maps.VoxelMap3D.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PrankLib.Maps.VoxelMap3D.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Create empty voxel map of given size.
+            </summary>
+            <param name="width">Width X of voxel map.</param>
+            <param name="length">Length Y of voxel map.</param>
+            <param name="height">Height Z of voxel map.</param>
+        </member>
+        <member name="M:PrankLib.Maps.VoxelMap3D.#ctor(System.Single[0:,0:,0:])">
+            <summary>
+            Create voxel map with given voxel data.
+            </summary>
+            <param name="voxelData"></param>
+        </member>
+        <member name="M:PrankLib.Maps.VoxelMap3D.SetVoxelData(System.Single[0:,0:,0:])">
+            <summary>
+            Set voxel map data 
+            </summary>
+            <param name="voxelData"></param>
+        </member>
+        <member name="T:PrankLib.Math">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PrankLib.Math.Clamp``1(``0,``0,``0)">
+            <summary>
+            Clamps given value between the minimum [inclusive] and maximum [inclusive].
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value">Value to be clamped.</param>
+            <param name="min">Minimum value in range [inclusive].</param>
+            <param name="max">Maximum value in range [inclusive].</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 1795184461
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 976105e728cee870cb8715a606524201
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 37119eb17ff85d8cc65e1869e3ae4a35
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7c412221f5f805e448121d17d30435f5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f85dfb58823d46442afa377129c2ba43, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 68ddacde805b3ef4885b33b750916e36, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ee6fcac609e6e5499ff00915df4bbf0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Asset Bundles/ZZS_Core/Objects/Scenery/scenery_block_test_s_01.asset
+- Assets/Asset Bundles/ZZS_Core/Objects/Paths/path_test_01.asset
+- Assets/Asset Bundles/ZZS_Core/Objects/Scenery/scenery_block_test_m_01.asset
+- Assets/Asset Bundles/ZZS_Core/zzs_core_assetinfo.json
+- Assets/Asset Bundles/ZZS_Core/Objects/Scenery/scenery_block_test_l_01.asset
+- Assets/Asset Bundles/ZZS_Core/Agents/Animals/animal_Test_01.asset
+Dependencies: []
