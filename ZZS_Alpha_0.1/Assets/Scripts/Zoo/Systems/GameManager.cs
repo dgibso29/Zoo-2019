@@ -163,8 +163,8 @@ namespace Zoo.Systems
                 var assetComponent = MapInteractionManager.Instance.GetSelectedAsset();
                 if (assetComponent != null)
                 {
-                    var container = new GameAssetContainer(assetComponent.Data, 
-                        AssetManager.GetAssetByStringID(assetComponent.AssetTypeID), assetComponent.Data.GameObject);
+                    var container = new GameAssetContainer(assetComponent.ParentAssetData, 
+                        AssetManager.GetAssetByStringID(assetComponent.AssetTypeID), assetComponent.ParentAssetData.GameObject);
                     var actionParams = new ConstructionActionParameters(new List<GameAssetContainer>() {container});
                     new DestroyAction(actionParams).ExecuteAction();
                     

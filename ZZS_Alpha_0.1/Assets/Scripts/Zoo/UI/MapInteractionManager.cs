@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Zoo.AssetComponents;
 using Zoo.Assets;
 using Zoo.Systems;
 using Zoo.Systems.World;

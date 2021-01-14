@@ -5,8 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
+using Zoo.AssetComponents;
 using Zoo.Attributes;
 using Zoo.Systems;
+using Zoo.Assets;
 
 namespace Zoo.Assets
 {
@@ -192,7 +194,7 @@ namespace Zoo.Assets
                 GameObject.GetComponent<AssetIDComponent>() : 
                 GameObject.AddComponent<AssetIDComponent>();
             component.ID = AssetID;
-            component.Data = this;
+            component.ParentAssetData = this;
             GameObject.name = $"Asset {AssetID} ({AssetTypeID})";
         }
 
